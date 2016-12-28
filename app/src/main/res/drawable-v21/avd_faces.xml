@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2016 Google Inc.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/vd_normal_face">
+    <target android:name="face">
+        <aapt:attr name="android:animation">
+            <set android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="translateX"
+                    android:repeatCount="0"
+                    android:valueFrom="0"
+                    android:valueTo="8" />
+
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="translateX"
+                    android:repeatCount="0"
+                    android:valueFrom="8"
+                    android:valueTo="-8" />
+
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="translateX"
+                    android:repeatCount="0"
+                    android:valueFrom="-8"
+                    android:valueTo="0" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="right_eye">
+        <aapt:attr name="android:animation">
+            <set android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:repeatCount="1"
+                    android:startOffset="400"
+                    android:valueFrom="2"
+                    android:valueTo="0.2" />
+
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:repeatCount="1"
+                    android:startOffset="200"
+                    android:valueFrom="0.2"
+                    android:valueTo="2" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="left_eye">
+        <aapt:attr name="android:animation">
+            <set android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:repeatCount="1"
+                    android:startOffset="400"
+                    android:valueFrom="2"
+                    android:valueTo="0.2" />
+
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:repeatCount="1"
+                    android:startOffset="200"
+                    android:valueFrom="0.2"
+                    android:valueTo="2" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="mouth">
+        <aapt:attr name="android:animation">
+            <set>
+                <set android:ordering="sequentially">
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="translateX"
+                        android:repeatCount="0"
+                        android:valueFrom="40"
+                        android:valueTo="48" />
+
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="translateX"
+                        android:repeatCount="0"
+                        android:valueFrom="48"
+                        android:valueTo="38" />
+
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="translateX"
+                        android:repeatCount="0"
+                        android:valueFrom="38"
+                        android:valueTo="40" />
+                </set>
+
+                <set android:ordering="sequentially">
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="scaleX"
+                        android:repeatCount="0"
+                        android:valueFrom="0.1"
+                        android:valueTo="0.04" />
+
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="scaleX"
+                        android:repeatCount="0"
+                        android:valueFrom="0.04"
+                        android:valueTo="0.06" />
+
+                    <objectAnimator
+                        android:duration="1000"
+                        android:interpolator="@android:interpolator/fast_out_slow_in"
+                        android:propertyName="scaleX"
+                        android:repeatCount="0"
+                        android:valueFrom="0.06"
+                        android:valueTo="0.1" />
+                </set>
+            </set>
+        </aapt:attr>
+    </target>
+    <!--<target android:name="face">-->
+    <!--<aapt:attr name="android:animation">-->
+    <!--<set>-->
+    <!--<objectAnimator-->
+    <!--android:duration="1000"-->
+    <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
+    <!--android:propertyName="translateX"-->
+    <!--android:repeatCount="1"-->
+    <!--android:valueFrom="1"-->
+    <!--android:valueTo="0.3" />-->
+    <!--</set>-->
+    <!--</aapt:attr>-->
+    <!--</target>-->
+    <!--<target android:name="face">-->
+    <!--<aapt:attr name="android:animation">-->
+    <!--<set>-->
+    <!--<objectAnimator-->
+    <!--android:duration="1000"-->
+    <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
+    <!--android:propertyName="translateX"-->
+    <!--android:repeatCount="1"-->
+    <!--android:valueFrom="1"-->
+    <!--android:valueTo="0.3" />-->
+    <!--</set>-->
+    <!--</aapt:attr>-->
+    <!--</target>-->
+</animated-vector>

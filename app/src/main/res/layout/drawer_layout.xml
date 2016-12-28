@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_100"
+        android:scrollbars="none">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/profile_info_actions_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="186dp">
+
+                <ImageView
+                    android:id="@+id/iv_hero_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/app_red"
+                    android:src="@drawable/img_building_2"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@string/font_family_medium"
+                    android:text="Vipul Kumar"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey_300" />
+
+            <TextView
+                android:id="@+id/trips_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Upcoming Trips"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/blog_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_profile_name"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Travel Blogs"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_album"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_profile_name"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Album of the Dawn"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_profile_name"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@string/font_family_light"
+                    android:padding="16dp"
+                    android:text="Search"
+                    android:textColor="@color/app_dark_100"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_help_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Feedback"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/btn_help_rate_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_profile_name"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Rate the App"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

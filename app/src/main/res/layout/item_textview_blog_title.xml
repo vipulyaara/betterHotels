@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_blog_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/bottom_layout"
+    android:layout_marginBottom="24dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="136dp"
+    android:layout_marginTop="24dp"
+    fontPath="fonts/open_sans_extra_bold.ttf"
+    android:fontFamily="@string/font_family_medium"
+    android:text="Play a fest of colors with Holi"
+    android:textAllCaps="true"
+    android:textColor="@color/white"
+    android:textSize="56sp"
+    android:textStyle="bold" />

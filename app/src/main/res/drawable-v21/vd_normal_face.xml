@@ -1,0 +1,64 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ft_avd_toarrow"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+    <group>
+        <group
+            android:scaleX="20"
+            android:scaleY="20"
+            android:translateX="50"
+            android:translateY="40">
+            <path
+                android:name="rectangle_path_3"
+                android:fillAlpha="1"
+                android:fillColor="@color/farmr_teal_500"
+                android:pathData="@string/arrowoverflow_path_dot"
+                android:strokeColor="@color/grey_300" />
+        </group>
+        <group android:name="face">
+            <group android:name="eyes">
+                <group
+                    android:name="left_eye"
+                    android:translateX="35"
+                    android:translateY="35"
+                    android:scaleX="2"
+                    android:scaleY="2">
+                    <path
+                        android:name="rectangle_path_3"
+                        android:fillAlpha="1"
+                        android:fillColor="@color/white"
+                        android:pathData="@string/arrowoverflow_path_dot" />
+                </group>
+                <group
+                    android:name="right_eye"
+                    android:translateX="66"
+                    android:translateY="35"
+                    android:scaleX="2"
+                    android:scaleY="2">
+                    <path
+                        android:name="rectangle_path_3"
+                        android:fillAlpha="1"
+                        android:fillColor="@color/white"
+                        android:pathData="@string/arrowoverflow_path_dot" />
+                </group>
+            </group>
+            <group
+                android:name="mouth"
+                android:scaleX="0.1"
+                android:scaleY="0.04"
+                android:translateX="40"
+                android:translateY="50">
+                <path
+                    android:name="path_mouth"
+                    android:fillAlpha="1"
+                    android:fillColor="@color/white"
+                    android:pathData="@string/rounded_square"
+                    android:strokeColor="@color/white"
+                    android:strokeWidth="4" />
+            </group>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Google Inc.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="200dp"
+            android:height="80dp"
+            android:viewportHeight="80"
+            android:viewportWidth="200">
+            <group>
+                <group
+                    android:name="rectangle_3">
+                    <group android:name="rectangle_3_pivot_0">
+                        <path
+                            android:name="rectangle_path_3"
+                            android:fillAlpha="0"
+                            android:fillColor="@color/app_red"
+                            android:pathData="@string/airbnb"
+                            android:strokeColor="@color/app_dark_100"
+                            android:strokeWidth="2" />
+                    </group>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="rectangle_path_3">
+        <aapt:attr name="android:animation">
+            <set >
+            <objectAnimator
+                android:propertyName="trimPathStart"
+                android:valueFrom="0.2"
+                android:valueTo="0"
+                android:startOffset="1500"
+                android:duration="1500"
+                android:interpolator="@android:interpolator/linear" />
+
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0.4"
+                android:valueTo="1"
+                android:startOffset="500"
+                android:duration="2800"
+                android:interpolator="@android:interpolator/linear" />
+
+            <objectAnimator
+                android:propertyName="trimPathOffset"
+                android:valueFrom="0"
+                android:valueTo="0.7"
+                android:duration="3000"
+                android:interpolator="@android:interpolator/linear" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

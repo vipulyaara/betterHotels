@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/no_trip_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:elevation="2dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/toolBarMasterStyle"
+        app:titleTextAppearance="@style/Toolbar.TitleTextMaster" />
+
+    <ImageView
+        android:id="@+id/iv_no_trip"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:src="@drawable/avd_button_alt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@string/font_family_medium"
+        android:text="No trips"
+        android:textAllCaps="true"
+        android:textColor="@color/app_dark_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:transitionName="shared_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@string/font_family_light"
+        android:text="The bookings you make will show up here"
+        android:textColor="@color/app_dark_100"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_no_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:fontFamily="@string/font_family_medium"
+        android:text="Try Again"
+        android:textAllCaps="true"
+        android:textColor="@color/app_dark_200"
+        android:textSize="14sp"
+        android:background="@drawable/avd_button" />
+</LinearLayout>

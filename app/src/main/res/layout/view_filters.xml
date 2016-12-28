@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reveal_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_apply"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:padding="16dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:tint="@color/text_black_heading" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:fontFamily="@string/font_family_light"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Filters"
+                android:textColor="@color/text_black_heading"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@drawable/shape_btn_red"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:fontFamily="@string/font_family_medium"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="RESET"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/sort_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@string/font_family_light"
+                        android:gravity="center"
+                        android:text="Sort by"
+                        android:textColor="@color/text_black"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp">
+
+                        <TextView
+                            android:id="@+id/tv_sort_relevance"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/shape_rounded_black_disabled"
+                            android:fontFamily="@string/font_family_regular"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Relevance"
+                            android:textColor="@color/farmr_teal_500"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sort_price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/shape_rounded_black_disabled"
+                            android:fontFamily="@string/font_family_regular"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Price"
+                            android:textColor="@color/text_black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sort_ratings"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/shape_rounded_black_disabled"
+                            android:fontFamily="@string/font_family_regular"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Ratings"
+                            android:textColor="@color/text_black"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="@color/grey_300" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_family_light"
+                    android:gravity="center"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Categories"
+                    android:textColor="@color/text_black"
+                    android:textSize="12sp" />
+
+                <include
+                    layout="@layout/filters_categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="@color/grey_300" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@string/font_family_light"
+                        android:gravity="center"
+                        android:text="Dates"
+                        android:textColor="@color/text_black"
+                        android:textSize="12sp" />
+
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/event_categories_layout_1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="#ffffff"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_category_1"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/shape_circle_ex_black"
+                                android:padding="16dp"
+                                android:src="@drawable/ic_email_black_24dp"
+                                android:tag="R.drawable.shape_circle_ex_black"
+                                android:tint="@color/text_black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@string/font_family_regular"
+                                android:gravity="center"
+                                android:text="Today"
+                                android:textColor="@color/text_black"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/event_categories_layout_2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="#ffffff"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_category_2"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/shape_circle_ex_black"
+                                android:padding="16dp"
+                                android:src="@drawable/ic_email_black_24dp"
+                                android:tint="@color/text_black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@string/font_family_regular"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="Tomorrow"
+                                android:textColor="@color/text_black"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/event_categories_layout_7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="#ffffff"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_category_7"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/shape_circle_ex_black"
+                                android:padding="16dp"
+                                android:src="@drawable/ic_email_black_24dp"
+                                android:tint="@color/text_black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@string/font_family_regular"
+                                android:gravity="center"
+                                android:text="This weekend"
+                                android:textColor="@color/text_black"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/event_categories_layout_3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="#ffffff"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_category_3"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/shape_circle_ex_black"
+                                android:padding="16dp"
+                                android:src="@drawable/ic_email_black_24dp"
+                                android:tint="@color/text_black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@string/font_family_regular"
+                                android:gravity="center"
+                                android:text="Select dates"
+                                android:textColor="@color/farmr_teal_500"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="@color/grey_300" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="16dp"
+                    android:buttonTint="@color/farmr_teal_500"
+                    android:checked="true"
+                    android:text="Show events only where friends are going"
+                    android:textColor="@color/text_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_100"
+                    android:fontFamily="@string/font_family_light"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="The filters will not work for now. The look and feel, interactions and usability is final."
+                    android:textColor="@color/text_black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_red"
+        android:fontFamily="@string/font_family_regular"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="See 413 Hotels"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

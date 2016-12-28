@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.vipul.bit_hotels.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:elevation="2dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:elevation="2dp">
+
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:collapsedTitleTextAppearance="@style/CollapsedToolbarTitle"
+                app:contentScrim="@color/white"
+                app:expandedTitleMarginBottom="16dp"
+                app:expandedTitleMarginStart="16dp"
+                app:expandedTitleTextAppearance="@style/ExpendedToolbarTitle"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_hero_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="256dp"
+                        android:background="@color/medium_green_200"
+                        android:clickable="true"
+                        android:elevation="0dp"
+                        android:foreground="@drawable/shape_ripple_image"
+                        android:scaleType="centerCrop"
+                        android:transitionName="shared_image"
+                        app:layout_collapseMode="parallax" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="56dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            fontPath="fonts/open_sans_extra_bold.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@string/font_family_medium"
+                            android:text="Sherlock Gorden"
+                            android:textAllCaps="false"
+                            android:textColor="#070707"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            fontPath="fonts/open_sans.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@string/font_family_regular"
+                            android:text="Album of the Dawn"
+                            android:textAllCaps="false"
+                            android:textColor="@color/medium_green_800"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/transparent"
+                    android:elevation="0dp"
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/toolBarMasterStyle"
+                    app:titleTextAppearance="@style/Toolbar.TitleTextMaster" />
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_album" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

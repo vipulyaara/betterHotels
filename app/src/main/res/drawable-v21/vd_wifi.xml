@@ -1,0 +1,87 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ft_avd_toarrow"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24">
+    <group
+        android:translateX="12"
+        android:translateY="12">
+        <group
+            android:name="rectangle_3"
+            android:scaleX="-4"
+            android:scaleY="-4">
+            <group android:name="rectangle_3_pivot_0">
+                <path
+                    android:name="rectangle_path_3"
+                    android:fillColor="@android:color/transparent"
+                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:strokeColor="@color/grey_300"
+                    android:strokeWidth="1.5"
+                    android:fillAlpha="0"
+                    android:trimPathEnd="0.63"
+                    android:trimPathStart="0.37" />
+            </group>
+        </group>
+        <group android:name="rectangle_2">
+            <group android:name="rectangle_2_pivot_0"
+                android:scaleX="1"
+                android:scaleY="1">
+                <path
+                    android:name="rectangle_path_2"
+                    android:fillColor="@android:color/transparent"
+                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:strokeColor="@color/grey_300"
+                    android:strokeWidth="1.5"
+                    android:trimPathEnd="1.13"
+                    android:fillAlpha="0"
+                    android:trimPathStart="0.87" />
+            </group>
+        </group>
+        <group
+            android:name="rectangle_1"
+            android:scaleX="-2.5"
+            android:scaleY="-2.5">
+            <group android:name="rectangle_1_pivot_0">
+                <path
+                    android:name="rectangle_path_1"
+                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:strokeColor="@color/grey_300"
+                    android:strokeWidth="1.5"
+                    android:fillAlpha="0"
+                    android:fillColor="@android:color/transparent"
+                    android:trimPathEnd="0.63"
+                    android:trimPathStart="0.37" />
+            </group>
+        </group>
+
+        <group
+            android:name="rectangle_4"
+            android:scaleX="-3"
+            android:scaleY="-3">
+            <group android:name="rectangle_1_pivot_0">
+                <path
+                    android:name="rectangle_path_1"
+                    android:fillColor="@color/app_dark_100"
+                    android:pathData="M -0.2,0 L -0.35,3.3 L 0.5,3.3 L 0.2, 0 Z"
+                    android:strokeColor="@color/white"
+                    android:strokeWidth="0" />
+            </group>
+        </group>
+
+        <group
+            android:name="rectangle_1"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:translateY="0.4">
+            <group android:name="rectangle_1_pivot_0">
+                <path
+                    android:name="rectangle_path_1"
+                    android:fillColor="@color/app_red"
+                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:strokeColor="@color/white"
+                    android:strokeWidth="0" />
+            </group>
+        </group>
+    </group>
+</vector>

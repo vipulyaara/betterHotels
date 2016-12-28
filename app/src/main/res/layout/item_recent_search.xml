@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_city_9" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:background="#88ffffff" />
+
+                <TextView
+                    fontPath="fonts/open_sans_extra_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@string/font_family_medium"
+                    android:text="Cat &amp; Dog"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@string/font_family_medium"
+                android:text="Finding a hotel in Delhi"
+                android:textAllCaps="false"
+                android:textColor="@color/app_dark_100"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@string/font_family_regular"
+                android:text="2 days ago"
+                android:textAllCaps="false"
+                android:textColor="@color/medium_green_800"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

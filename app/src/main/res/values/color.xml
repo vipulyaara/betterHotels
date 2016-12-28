@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/app_dark_100</color>
+    <color name="colorPrimaryDark">@color/app_dark_100</color>
+
+    <color name="colorAccent">#F8A018</color>
+    <color name="colorAccentSecondary">#F8A018</color>
+
+    <color name="primary">#7323DD</color>
+    <color name="btn_teal_primary">#29CEB5</color>
+    <color name="btn_blue_primary">#00BCD4</color>
+    <color name="btn_red_accent">#FF5252</color>
+    <color name="accent_old">#29CEB5</color>
+    <color name="dot">@color/medium_green_400</color>
+    <color name="pin">@color/app_red</color>
+
+    <color name="stark_white">#D3C6B1</color>
+    <color name="stark_white_300">#EAE2D8</color>
+
+    <color name="app_light">#ffffff</color>
+    <color name="app_dark_100">#2d384a</color>
+    <color name="app_dark_300">#2d384a</color>
+    <color name="app_dark_200">#212a38</color>
+    <color name="app_grey_400">#90a4ae</color>
+    <color name="app_grey_50">#ebeff2</color>
+    <color name="app_blue_grey">#9ebaec</color>
+    <color name="app_blue">#03a9f4</color>
+    <color name="app_yellow">#f6bf26</color>
+    <!--<color name="app_red">#ff8a65</color>-->
+    <color name="app_red">@color/red_500</color>
+
+
+    <color name="scoot_blue_100">#7193FF</color>
+    <color name="scoot_blue_200">#415AFF</color>
+    <color name="scoot_yellow_100">#FFD442</color>
+    <color name="scoot_yellow_200">#E8C534</color>
+    <color name="scoot_green_100">#7ADD99</color>
+    <color name="scoot_green_200">#27B772</color>
+
+    <color name="primary_50">#ffffff</color>
+    <color name="primary_100">#dbc6f6</color>
+    <color name="primary_200">#bc96ef</color>
+    <color name="primary_300">#9558e5</color>
+    <color name="primary_400">#843de1</color>
+    <color name="primary_500">#7323dd</color>
+    <color name="primary_600">#651ec3</color>
+    <color name="primary_700">#571aa9</color>
+    <color name="primary_800">#4a168e</color>
+    <color name="primary_900">#3c1274</color>
+    <color name="primary_A100">#ffffff</color>
+    <color name="primary_A200">#dbc6f6</color>
+    <color name="primary_A400">#843de1</color>
+    <color name="primary_A700">#571aa9</color>
+
+    <color name="accent_50">#ecfcf1</color>
+    <color name="accent_100">#aaf1c2</color>
+    <color name="accent_200">#7aea9f</color>
+    <color name="accent_300">#3de073</color>
+    <color name="accent_400">#23da61</color>
+    <color name="accent_500">#1fc055</color>
+    <color name="accent_600">#1ba649</color>
+    <color name="accent_700">#168b3e</color>
+    <color name="accent_800">#127132</color>
+    <color name="accent_900">#0e5726</color>
+    <color name="accent_A100">#ecfcf1</color>
+    <color name="accent_A200">#aaf1c2</color>
+    <color name="accent_A400">#23da61</color>
+    <color name="accent_A700">#168b3e</color>
+
+    <color name="yellow">#F5AD00</color>
+    <color name="yellow_2">#FFBB00</color>
+    <color name="buzz_primary">@color/blue</color>
+    <color name="green_dark">#4FC31C</color>
+    <color name="green">@color/green_500</color>
+    <color name="green_medium">#0DAF72</color>
+    <color name="teal_beuty">#00C6AE</color>
+    <color name="blue_beauty">#4A6AA9</color>
+    <color name="blue">@color/material_blue</color>
+    <color name="pink">#F45A73</color>
+    <color name="black">@color/black_400</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar_color">@color/grey_200</color>
+
+    <color name="yatra_blue">#1181f1</color>
+    <color name="yatra_orange">#F78535</color>
+    <color name="icon_overlay">#7B8994</color>
+    <color name="icon_overlay_light">#887B8994</color>
+    <!--<color name="yatra_teal_500">#2fc3c1</color>-->
+    <color name="farmr_teal_500">#2fc3c1</color>
+    <color name="yatra_teal_500">@color/green</color>
+
+    <!--Texts-->
+    <color name="text_black">@color/grey_600</color>
+    <color name="text_black_heading">@color/grey_900</color>
+    <color name="text_black_disabled">@color/grey_400</color>
+
+    <!--Popup menu-->
+    <color name="master_pop_up_background">#48649F</color>
+    <color name="master_pop_up_text">@color/text_black</color>
+    <color name="master_pop_up_separator_line">@color/grey_300</color>
+
+    <color name="login_facebook">#48649F</color>
+    <color name="login_google">#DE5246</color>
+    <color name="login_twitter">#53A8E9</color>
+
+    <color name="black_100">#616161</color>
+    <color name="black_200">#2B2530</color>
+    <color name="black_300">#343338</color>
+    <color name="black_400">#313034</color>
+
+    <color name="black_full">#000000</color>
+
+    <color name="shadow_top_to_bottom">#22333333</color>
+    <color name="shadow_botom_to_top">#22333333</color>
+
+    <!--Green color palette-->
+    <color name="green_50">#d7ffed</color>
+    <color name="green_100">#8bffca</color>
+    <color name="green_200">#53ffb0</color>
+    <color name="green_300">#0bff8f</color>
+    <color name="green_400">#00ec80</color>
+    <color name="green_500">#00cd6f</color>
+    <color name="green_600">#00ae5e</color>
+    <color name="green_700">#00904e</color>
+    <color name="green_800">#00713d</color>
+    <color name="green_900">#00532d</color>
+    <color name="green_A100">#d7ffed</color>
+    <color name="green_A200">#8bffca</color>
+    <color name="green_A400">#00ec80</color>
+    <color name="green_A700">#00904e</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="red_500">#F55F5F</color>
+    <color name="teal_500">#009688</color>
+
+    <color name="grey_sep">#f4f4f5</color>
+    <color name="grey_label">#7d939c</color>
+    <color name="grey_50">#f5f5f5</color>
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_200">#55e0e9e3</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_dropbox">#7B8994</color>
+    <color name="orange_500">#ff5722</color>
+
+    <color name="medium_green_50">#fafbfa</color>
+    <color name="medium_green_100">#F8F8F8</color>
+    <!--<color name="medium_green_100">#f3f6f3</color>-->
+    <color name="medium_green_200">#ebf1ed</color>
+    <color name="medium_green_300">#e4ede7</color>
+    <color name="medium_green_400">#dee8e2</color>
+    <color name="medium_green_500">#d9e4dd</color>
+    <color name="medium_green_600">#c0cbc4</color>
+    <color name="medium_green_700">#a7b0aa</color>
+    <color name="medium_green_800">#8e948f</color>
+    <color name="medium_green_900">#626763</color>
+    <color name="medium_teal_500">#2fc3c1</color>
+
+    <color name="md_green_500">#A2CC00</color>
+    <color name="md_green_700">#64DD17</color>
+
+    <color name="material_blue">#2196F3</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_orange_deep">#FFC107</color>
+    <color name="material_red">#F44336</color>
+    <color name="material_teal">#009688</color>
+    <color name="material_violet">#BA77FF</color>
+
+    <color name="dark_violet">#360284</color>
+    <color name="dark_yellow">#C07927</color>
+    <color name="dark_green">#2CBE5A</color>
+    <color name="dark_pink">#E66760</color>
+
+    <color name="color1">#9C27B0</color>
+    <color name="color2">#FF4081</color>
+    <color name="color3">#7B1FA2</color>
+    <color name="color4">#F8BBD0</color>
+    <color name="color5">#FF5252</color>
+    <color name="color6">#607D8B</color>
+    <color name="color7">#FF5722</color>
+    <color name="color8">#FFA000</color>
+
+
+    <color name="monese_blue">#3D84FD</color>
+    <color name="monese_green">#25C681</color>
+    <color name="monese_yellow">#FDD901</color>
+</resources>

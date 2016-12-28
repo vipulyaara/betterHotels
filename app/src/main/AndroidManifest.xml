@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vipul.bit_hotels">
+
+    <application
+        android:name=".utils.HotelsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.vipul.bit_hotels.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.HotelSrpActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.SavedCardsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.HotelDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.ToursActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.AlbumActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.SearchCityActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.GalleryActivity"
+            android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.vipul.bit_hotels.activity.NoTripActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.ProfileActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.BlogActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.NoHotelsActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.DiscoverActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.TripsActivity" />
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

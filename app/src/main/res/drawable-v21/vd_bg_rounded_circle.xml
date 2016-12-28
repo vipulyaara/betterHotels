@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ft_avd_toarrow"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportHeight="80"
+    android:viewportWidth="200">
+    <group>
+        <group
+            android:name="rectangle_3">
+            <group android:name="rectangle_3_pivot_0"
+                android:translateX="50">
+                <path
+                    android:name="rectangle_path_3"
+                    android:fillAlpha="1"
+                    android:fillColor="@color/app_dark_100"
+                    android:pathData="M40.2,20 h 0 s20-1 20 20-19.7 19.6-19.7 19.6
+                    H40.3s-19.8-.5-19.8-20C20.5 20 40.2 20 40.2 20z"
+                    android:strokeColor="@color/app_dark_100"
+                    android:strokeWidth="2" />
+            </group>
+        </group>
+       </group>
+</vector>

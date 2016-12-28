@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ft_avd_toarrow"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24">
+    <group
+        android:translateX="12"
+        android:translateY="12">
+        <group
+            android:name="rectangle_3"
+            android:scaleX="-4"
+            android:scaleY="-4">
+            <group android:name="rectangle_3_pivot_0">
+                <path
+                    android:name="rectangle_path_3"
+                    android:fillColor="@android:color/transparent"
+                    android:pathData="@string/airbnb"
+                    android:strokeColor="@color/grey_300"
+                    android:strokeWidth="1.5"
+                    android:fillAlpha="1" />
+            </group>
+        </group>
+    </group>
+</vector>

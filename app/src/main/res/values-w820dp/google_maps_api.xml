@@ -1,0 +1,20 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=15:F6:DF:49:64:19:E5:72:C6:3C:14:62:EB:F1:EA:69:57:15:23:6E%3Bcom.yatra.cartermaps
+
+    You can also add your credentials to an existing key, using this line:
+    15:F6:DF:49:64:19:E5:72:C6:3C:14:62:EB:F1:EA:69:57:15:23:6E;com.yatra.cartermaps
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDSBS84m5U6tzJy-x4yF2xpFNUvetI0UGE</string>
+    <string name="google_places_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAjXdmhl0LRccWQYPfx-mgZpBGPgvq8g10</string>
+</resources>

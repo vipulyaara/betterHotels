@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@string/font_family_medium"
+            android:text="Explore the world"
+            fontPath="fonts/open_sans_extra_bold.ttf"
+            android:textAllCaps="true"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:background="@drawable/shape_btn_hollow_black"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:padding="1dp"
+                android:src="@drawable/ic_search_black_24dp"
+                android:tint="@color/medium_green_600" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Where do you want to go?"
+                android:padding="0dp"
+                android:textColor="@color/app_dark_100"
+                android:textColorHint="@color/medium_green_600"
+                android:textCursorDrawable="@color/app_dark_100"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <!--fontPath="fonts/big_john.otf"-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@string/font_family_regular"
+            android:text="Select a destination to see hotels"
+            android:textColor="#BCBDBC"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_locations"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:clipToPadding="false"
+                android:paddingLeft="20dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/item_select_date" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            fontPath="fonts/open_sans_extra_bold.ttf"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@string/font_family_medium"
+            android:text="Featured Hotels"
+            android:textAllCaps="true"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="96dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel_2" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@string/font_family_regular"
+                android:text="Featured destinations with offers"
+                android:textColor="#BCBDBC"
+                android:textSize="14sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_offers"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:clipToPadding="false"
+                android:paddingLeft="24dp" />
+        </LinearLayout>
+
+        <include layout="@layout/item_hotel" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel_2" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel_2" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_deal" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel_2" />
+
+        <include layout="@layout/sep_heightened"/>
+
+        <include layout="@layout/item_hotel" />
+    </LinearLayout>
+</ScrollView>

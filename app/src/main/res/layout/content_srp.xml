@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_medium"
+                android:text="New Delhi"
+                android:textAllCaps="true"
+                android:textColor="@color/app_dark_200"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="shared_title" />
+
+            <TextView
+                android:id="@+id/tv_label_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_location"
+                android:fontFamily="@string/font_family_regular"
+                android:text="1200 hotels in this city"
+                android:textColor="#BCBDBC"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_label_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@string/font_family_medium"
+                android:text="18°C"
+                android:textAllCaps="true"
+                android:textColor="@color/medium_green_600"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="shared_title" />
+
+            <TextView
+                android:id="@+id/tv_label_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_label_3"
+                android:fontFamily="@string/font_family_regular"
+                android:text="Coudy"
+                android:textColor="@color/medium_green_600"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="96dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="24dp"
+            android:visibility="gone"
+            android:paddingRight="24dp"
+            android:paddingTop="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_regular"
+                android:text="Things to do"
+                android:textAllCaps="true"
+                android:textColor="@color/medium_green_900"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@string/font_family_regular"
+                android:text="More"
+                android:textAllCaps="false"
+                android:textColor="@color/medium_green_900"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_locations"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:clipToPadding="false"
+                android:paddingLeft="24dp" />
+        </LinearLayout>
+
+        <!--<include layout="@layout/item_select_date"/>-->
+
+        <View
+            android:layout_width="96dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:visibility="gone"
+            android:layout_marginTop="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_select_date" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_deal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <include layout="@layout/item_hotel" />
+    </LinearLayout>
+</RelativeLayout>

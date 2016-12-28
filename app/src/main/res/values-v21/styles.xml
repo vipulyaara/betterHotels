@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/shared_transition</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">@transition/shared_transition</item>-->
+    </style>
+</resources>

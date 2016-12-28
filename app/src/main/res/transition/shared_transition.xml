@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds>
+        <targets>
+            <target android:targetId="@+id/iv_location" />
+            <target android:targetId="@+id/iv_hero_image" />
+            <target android:targetId="@+id/tv_location" />
+            <target android:targetId="@+id/tv_title" />
+        </targets>
+    </changeBounds>
+    <changeImageTransform>
+        <targets>
+            <target android:targetId="@+id/iv_location" />
+            <target android:targetId="@+id/iv_hero_image" />
+            <target android:targetId="@+id/tv_location" />
+            <target android:targetId="@+id/tv_title" />
+        </targets>
+    </changeImageTransform>
+</transitionSet>
