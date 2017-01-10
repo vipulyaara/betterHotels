@@ -22,6 +22,18 @@ Watch these videos to get a look at the app's workflow
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 MIT License
 
 Copyright (c) 2017 Vipul Kumar
