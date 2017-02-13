@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.vipul.bit_hotels.R;
-import com.vipul.bit_hotels.Utils;
+import com.vipul.bit_hotels.utils.Utils;
 import com.vipul.bit_hotels.adapter.FeaturedEventsAdapter;
 import com.vipul.bit_hotels.adapter.LocationsAdapter;
 import com.vipul.bit_hotels.drawer.NavigationDrawerFragment;

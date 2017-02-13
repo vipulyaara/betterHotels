@@ -1,14 +1,20 @@
 package com.vipul.bit_hotels.fragment;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.vipul.bit_hotels.R;
+import com.vipul.bit_hotels.activity.BlogDetailActivity;
+import com.vipul.bit_hotels.activity.HotelSrpActivity;
 
 /**
  * Created by vipulkumar on 17/10/16.
@@ -39,6 +45,20 @@ public class BlogItemFragment extends Fragment {
         position = getArguments().getInt("position");
         ivImage = (ImageView) rootView.findViewById(R.id.iv_image);
         ivImage.setImageResource(drawables[position]);
+
+        ivImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Pair<View, String> p1 = Pair.create((View) ivImage, ivImage.getTransitionName());
+                ActivityOptionsCompat options = ActivityOptionsCompat.
+                        makeSceneTransitionAnimation(((Activity) getContext()), p1);
+                Bundle bundle = options.toBundle();
+                Intent i = new Intent(getContext(), BlogDetailActivity.class);
+                i.putExtra("image", drawables[position]);
+//                i.putExtra("title", titlesArray[positionInfo.getPosition()]);
+                getContext().startActivity(i, bundle);
+            }
+        });
 
         return rootView;
     }

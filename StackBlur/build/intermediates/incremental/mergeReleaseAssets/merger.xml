@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Vipul/Projects/UI Projects/Hotels/StackBlur/assets"><file name="ic_launcher.png" path="/Vipul/Projects/UI Projects/Hotels/StackBlur/assets/ic_launcher.png"/></source><source path="/Vipul/Projects/UI Projects/Hotels/StackBlur/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Vipul/Projects/UI Projects/Hotels/StackBlur/build-types/release/assets"/></dataSet></merger>

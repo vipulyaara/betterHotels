@@ -15,7 +15,7 @@
                 <path
                     android:name="rectangle_path_3"
                     android:fillColor="@android:color/transparent"
-                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:pathData="@string/path_circle"
                     android:strokeColor="@color/grey_300"
                     android:strokeWidth="1.5"
                     android:fillAlpha="0"
@@ -30,7 +30,7 @@
                 <path
                     android:name="rectangle_path_2"
                     android:fillColor="@android:color/transparent"
-                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:pathData="@string/path_circle"
                     android:strokeColor="@color/grey_300"
                     android:strokeWidth="1.5"
                     android:trimPathEnd="1.13"
@@ -45,7 +45,7 @@
             <group android:name="rectangle_1_pivot_0">
                 <path
                     android:name="rectangle_path_1"
-                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:pathData="@string/path_circle"
                     android:strokeColor="@color/grey_300"
                     android:strokeWidth="1.5"
                     android:fillAlpha="0"
@@ -78,7 +78,7 @@
                 <path
                     android:name="rectangle_path_1"
                     android:fillColor="@color/app_red"
-                    android:pathData="@string/arrowoverflow_path_dot"
+                    android:pathData="@string/path_circle"
                     android:strokeColor="@color/white"
                     android:strokeWidth="0" />
             </group>

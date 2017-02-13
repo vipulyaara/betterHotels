@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Vipul/Projects/UI Projects/Hotels/StackBlur/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Vipul/Projects/UI Projects/Hotels/StackBlur/build-types/release/shaders"/></dataSet></merger>

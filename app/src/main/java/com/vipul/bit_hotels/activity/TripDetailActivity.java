@@ -27,39 +27,8 @@ public class TripDetailActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trip_detail);
-        galleryLayout = (RelativeLayout) findViewById(R.id.gallery_layout);
 
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.gallery_layout, GalleryFragment.newInstance())
-                .commit();
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                initUi();
-            }
-        }, 500);
-    }
-
-    private void initUi() {
         initializeToolbar();
-
-        RecyclerView recyclerViewLocations = (RecyclerView) findViewById(R.id.recycler_view_locations);
-        recyclerViewLocations.setHasFixedSize(true);
-        recyclerViewLocations.setNestedScrollingEnabled(false);
-        final LinearLayoutManager mLayoutManager = new LinearLayoutManager(
-                this);
-        mLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
-        recyclerViewLocations.setLayoutManager(mLayoutManager);
-
-        locationsList = new LinkedList<>();
-        for (int i = 0; i < 5; i++) {
-            LocationItem locationItem = new LocationItem();
-            locationsList.add(locationItem);
-        }
-
-        locationsAdapter = new EasyRecyclerAdapter<>(this, FeaturedEventsAdapter.class, locationsList);
-        recyclerViewLocations.setAdapter(locationsAdapter);
     }
 
     private void initializeToolbar() {

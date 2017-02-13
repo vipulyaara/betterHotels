@@ -29,6 +29,11 @@
         <item name="android:textColorSecondary">@color/app_dark_100</item>
     </style>
 
+    <style name="toolBarMasterStyleWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
     <style name="Toolbar.TitleTextMaster" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/app_dark_100</item>

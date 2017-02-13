@@ -20,14 +20,14 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.vipul.bit_hotels.R;
-import com.vipul.bit_hotels.Utils;
-import com.vipul.bit_hotels.activity.AlbumActivity;
 import com.vipul.bit_hotels.activity.BlogActivity;
+import com.vipul.bit_hotels.activity.BlurredLayoutActivity;
+import com.vipul.bit_hotels.activity.HotelVocabActivity;
 import com.vipul.bit_hotels.activity.NoTripActivity;
-import com.vipul.bit_hotels.activity.DiscoverActivity;
 import com.vipul.bit_hotels.activity.ProfileActivity;
 import com.vipul.bit_hotels.activity.SearchActivity;
-import com.vipul.bit_hotels.activity.TripsActivity;
+import com.vipul.bit_hotels.activity.TripsListActivity;
+import com.vipul.bit_hotels.utils.Utils;
 
 public class NavigationDrawerFragment extends BaseNavigationDrawerFragment {
 
@@ -42,7 +42,7 @@ public class NavigationDrawerFragment extends BaseNavigationDrawerFragment {
         tripsLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Utils.startActivityWithClipReveal(getActivity(), TripsActivity.class, tripsLayout);
+                Utils.startActivityWithClipReveal(getActivity(), TripsListActivity.class, tripsLayout);
             }
         });
 
@@ -66,7 +66,7 @@ public class NavigationDrawerFragment extends BaseNavigationDrawerFragment {
         feedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Utils.startActivityWithClipReveal(getActivity(), DiscoverActivity.class, blogsLayout);
+                Utils.startActivityWithClipReveal(getActivity(), HotelVocabActivity.class, blogsLayout);
             }
         });
 
@@ -83,6 +83,14 @@ public class NavigationDrawerFragment extends BaseNavigationDrawerFragment {
             @Override
             public void onClick(View view) {
                 Utils.startActivityWithClipReveal(getActivity(), SearchActivity.class, searchLayout);
+            }
+        });
+
+        final TextView rateLayout = (TextView) navigationDrawerLayout.findViewById(R.id.btn_help_rate_app);
+        rateLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Utils.startActivityWithClipReveal(getActivity(), BlurredLayoutActivity.class, rateLayout);
             }
         });
         return navigationDrawerLayout;

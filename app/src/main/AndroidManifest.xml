@@ -40,6 +40,15 @@
             android:name="com.vipul.bit_hotels.activity.AlbumActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
+            android:name="com.vipul.bit_hotels.activity.BlurredLayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.TripDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.BlogDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
             android:name="com.vipul.bit_hotels.activity.SearchCityActivity"
             android:windowSoftInputMode="stateAlwaysHidden"
             android:theme="@style/AppTheme.NoActionBar"/>
@@ -51,7 +60,9 @@
         <activity android:name="com.vipul.bit_hotels.activity.BlogActivity" />
         <activity android:name="com.vipul.bit_hotels.activity.NoHotelsActivity" />
         <activity android:name="com.vipul.bit_hotels.activity.DiscoverActivity" />
-        <activity android:name="com.vipul.bit_hotels.activity.TripsActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.TripsListActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.HotelVocabActivity" />
+        <activity android:name="com.vipul.bit_hotels.activity.ListGridActivity" />
 
 
 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -19,6 +18,7 @@
             android:orientation="vertical">
 
             <TextView
+                fontPath="fonts/open_sans_extra_bold.ttf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -26,11 +26,12 @@
                 android:paddingLeft="24dp"
                 android:text="DEL - BOM trip details"
                 android:textAllCaps="true"
-                android:textColor="@color/app_blue"
+                android:textColor="@color/app_dark_100"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
+                fontPath="fonts/open_sans_light.ttf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
@@ -47,6 +48,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    fontPath="fonts/open_sans_medium.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -69,19 +71,20 @@
                 android:paddingBottom="12dp">
 
                 <TextView
+                    fontPath="fonts/open_sans_medium.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@string/font_family_medium"
                     android:text="New Delhi - Mumbai"
                     android:textAllCaps="true"
-                    android:textColor="@color/app_blue"
+                    android:textColor="@color/farmr_teal_500"
                     android:textSize="14sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:layout_height="wrap_content">
+                    android:layout_marginTop="8dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -90,6 +93,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_medium"
@@ -99,6 +103,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -124,6 +129,7 @@
                             android:tint="@color/app_grey_400" />
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -144,6 +150,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_medium"
@@ -153,6 +160,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -182,6 +190,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -190,6 +199,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -214,6 +224,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -222,12 +233,13 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="@string/font_family_regular"
                             android:text="Confirmed"
-                            android:textColor="@color/green"
+                            android:textColor="@color/farmr_teal_500"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -250,19 +262,20 @@
                 android:paddingBottom="12dp">
 
                 <TextView
+                    fontPath="fonts/open_sans_medium.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@string/font_family_medium"
                     android:text="Mumbai - New Delhi"
                     android:textAllCaps="true"
-                    android:textColor="@color/app_blue"
+                    android:textColor="@color/farmr_teal_500"
                     android:textSize="14sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:layout_height="wrap_content">
+                    android:layout_marginTop="8dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -271,6 +284,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_medium"
@@ -280,6 +294,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -305,6 +320,7 @@
                             android:tint="@color/app_grey_400" />
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -325,6 +341,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_medium"
@@ -334,6 +351,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -363,6 +381,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -371,6 +390,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
@@ -395,6 +415,7 @@
                         android:orientation="vertical">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -403,12 +424,13 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="@string/font_family_regular"
                             android:text="Confirmed"
-                            android:textColor="@color/green"
+                            android:textColor="@color/farmr_teal_500"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -422,6 +444,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    fontPath="fonts/open_sans_medium.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -450,10 +473,11 @@
                     app:srcCompat="@drawable/ic_person_black_24dp" />
 
                 <TextView
+                    fontPath="fonts/open_sans.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
-                    android:fontFamily="@string/font_family_medium"
+                    android:fontFamily="@string/font_family_regular"
                     android:text="Mr. John Doe"
                     android:textColor="@color/app_dark_300"
                     android:textSize="14sp" />
@@ -475,10 +499,11 @@
                     app:srcCompat="@drawable/ic_person_black_24dp" />
 
                 <TextView
+                    fontPath="fonts/open_sans.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
-                    android:fontFamily="@string/font_family_medium"
+                    android:fontFamily="@string/font_family_regular"
                     android:text="Mr. Jonathon Doe"
                     android:textColor="@color/app_dark_300"
                     android:textSize="14sp" />
@@ -491,6 +516,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    fontPath="fonts/open_sans_medium.ttf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -529,6 +555,7 @@
                         android:paddingTop="16dp">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -538,6 +565,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -557,6 +585,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -566,6 +595,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -585,6 +615,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -594,6 +625,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -614,6 +646,7 @@
                         android:visibility="gone">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -623,6 +656,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -642,6 +676,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -651,6 +686,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -677,6 +713,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_regular"
@@ -686,6 +723,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -705,6 +743,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@string/font_family_medium"
@@ -714,13 +753,14 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
                             android:fontFamily="@string/font_family_medium"
                             android:gravity="center"
                             android:text="₹1,000"
-                            android:textColor="@color/green"
+                            android:textColor="@color/farmr_teal_500"
                             android:textSize="14sp" />
                     </RelativeLayout>
 
@@ -733,6 +773,7 @@
                         android:paddingTop="8dp">
 
                         <TextView
+                            fontPath="fonts/open_sans_medium.ttf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
@@ -759,7 +800,8 @@
             android:layout_height="28dp"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="24dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="16dp"
+            android:padding="2dp"
             app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
     </LinearLayout>
 
@@ -768,7 +810,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/app_dark_100"
+        android:background="@color/app_dark_200"
         android:elevation="20dp"
         android:gravity="center"
         android:orientation="horizontal">
@@ -792,20 +834,21 @@
                 android:tint="@color/white" />
 
             <TextView
+                fontPath="fonts/open_sans_medium.ttf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@string/font_family_medium"
-                android:text="Call Yatra"
+                android:text="Call OTA"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
         </LinearLayout>
 
         <View
-            android:layout_width="0.4dp"
+            android:layout_width="0.2dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="0dp"
             android:layout_marginTop="0dp"
-            android:background="@color/grey_300" />
+            android:background="#88ffffff" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -826,20 +869,21 @@
                 android:tint="@color/white" />
 
             <TextView
+                fontPath="fonts/open_sans_medium.ttf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@string/font_family_medium"
                 android:text="Email Ticket"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
         </LinearLayout>
 
         <View
-            android:layout_width="0.4dp"
+            android:layout_width="0.2dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="0dp"
             android:layout_marginTop="0dp"
-            android:background="@color/grey_300" />
+            android:background="#88ffffff" />
 
         <LinearLayout
             android:id="@+id/cancel_booking"
@@ -861,12 +905,13 @@
                 android:tint="@color/white" />
 
             <TextView
+                fontPath="fonts/open_sans_medium.ttf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@string/font_family_medium"
                 android:text="Cancel Booking"
                 android:textColor="@color/white"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

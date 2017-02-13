@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_medium"
+                android:text="Play a fest of colors with Holi"
+                android:textAllCaps="true"
+                android:textColor="@color/app_dark_200"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="shared_title" />
+
+            <TextView
+                android:id="@+id/tv_label_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_location"
+                android:fontFamily="@string/font_family_regular"
+                android:text="By John Doe"
+                android:textColor="@color/farmr_teal_500"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="96dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/medium_green_600" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="24dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_regular"
+                android:text="Things to do"
+                android:textAllCaps="true"
+                android:textColor="@color/medium_green_900"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@string/font_family_regular"
+                android:text="More"
+                android:textAllCaps="false"
+                android:textColor="@color/medium_green_900"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_locations"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:clipToPadding="false"
+                android:paddingLeft="24dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="96dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/medium_green_600"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@string/font_family_medium"
+                android:text="1. Holi in Uttaranchal"
+                android:textAllCaps="false"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:fontFamily="@string/font_family_light"
+                android:lineSpacingExtra="2dp"
+                android:text="I’ll start with the hard part: As of today, we are reducing our team by about one third — eliminating 50 jobs, mostly in sales, support, and other business functions. We are also changing our business model to more directly drive the mission we set out on originally."
+                android:textAllCaps="false"
+                android:textColor="@color/text_black_heading"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_marginTop="24dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_city_23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="24dp"
+                android:fontFamily="@string/font_family_light"
+                android:lineSpacingExtra="2dp"
+                android:text="I’ll start with the hard part: As of today, we are reducing our team by about one third — eliminating 50 jobs, mostly in sales, support, and other business functions. We are also changing our business model to more directly drive the mission we set out on originally.\n\nObviously, this is a tough thing to do, made tougher by the immense respect and love we have for these people who have helped make Medium what it is today. We reached this decision when Medium’s management team came together to review the last year and take a hard look at our business — where we are and where we’re headed. While we could continue on our current path — and there is a business case for doing so — we decided that we risk failing on our larger, original mission if we don’t make some proactive changes while we have the momentum and resources to do so."
+                android:textAllCaps="false"
+                android:textColor="@color/text_black_heading"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@string/font_family_medium"
+                android:text="2. Holi in Kashmir"
+                android:textAllCaps="false"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:fontFamily="@string/font_family_light"
+                android:lineSpacingExtra="2dp"
+                android:text="I’ll start with the hard part: As of today, we are reducing our team by about one third — eliminating 50 jobs, mostly in sales, support, and other business functions. We are also changing our business model to more directly drive the mission we set out on originally."
+                android:textAllCaps="false"
+                android:textColor="@color/text_black_heading"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_marginTop="24dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_city_34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="24dp"
+                android:fontFamily="@string/font_family_light"
+                android:lineSpacingExtra="2dp"
+                android:text="I’ll start with the hard part: As of today, we are reducing our team by about one third — eliminating 50 jobs, mostly in sales, support, and other business functions. We are also changing our business model to more directly drive the mission we set out on originally.\n\nObviously, this is a tough thing to do, made tougher by the immense respect and love we have for these people who have helped make Medium what it is today. We reached this decision when Medium’s management team came together to review the last year and take a hard look at our business — where we are and where we’re headed. While we could continue on our current path — and there is a business case for doing so — we decided that we risk failing on our larger, original mission if we don’t make some proactive changes while we have the momentum and resources to do so."
+                android:textAllCaps="false"
+                android:textColor="@color/text_black_heading"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

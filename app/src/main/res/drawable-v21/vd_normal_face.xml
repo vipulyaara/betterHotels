@@ -1,6 +1,5 @@
-
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:name="ft_avd_toarrow"
+    android:name="vd_face"
     android:width="100dp"
     android:height="100dp"
     android:viewportHeight="100"
@@ -12,12 +11,13 @@
             android:translateX="50"
             android:translateY="40">
             <path
-                android:name="rectangle_path_3"
+                android:name="path_face_bg"
                 android:fillAlpha="1"
                 android:fillColor="@color/farmr_teal_500"
-                android:pathData="@string/arrowoverflow_path_dot"
+                android:pathData="@string/path_circle"
                 android:strokeColor="@color/grey_300" />
         </group>
+
         <group android:name="face">
             <group android:name="eyes">
                 <group
@@ -27,10 +27,10 @@
                     android:scaleX="2"
                     android:scaleY="2">
                     <path
-                        android:name="rectangle_path_3"
+                        android:name="path_left_eye"
                         android:fillAlpha="1"
                         android:fillColor="@color/white"
-                        android:pathData="@string/arrowoverflow_path_dot" />
+                        android:pathData="@string/path_circle" />
                 </group>
                 <group
                     android:name="right_eye"
@@ -39,10 +39,10 @@
                     android:scaleX="2"
                     android:scaleY="2">
                     <path
-                        android:name="rectangle_path_3"
+                        android:name="path_right_eye"
                         android:fillAlpha="1"
                         android:fillColor="@color/white"
-                        android:pathData="@string/arrowoverflow_path_dot" />
+                        android:pathData="@string/path_circle" />
                 </group>
             </group>
             <group

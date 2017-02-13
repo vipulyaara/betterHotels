@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.vipul.bit_hotels.R;
-import com.vipul.bit_hotels.Utils;
+import com.vipul.bit_hotels.utils.Utils;
 import com.vipul.bit_hotels.activity.NoHotelsActivity;
 import com.vipul.bit_hotels.activity.SearchCityActivity;
 import com.vipul.bit_hotels.activity.HotelSrpActivity;

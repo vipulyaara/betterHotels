@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">@color/app_dark_100</color>
+    <!--<color name="colorPrimary">@color/app_dark_100</color>-->
     <color name="colorPrimaryDark">@color/app_dark_100</color>
+    <!--<color name="colorPrimaryDark">@color/app_dark_100</color>-->
 
     <color name="colorAccent">#F8A018</color>
     <color name="colorAccentSecondary">#F8A018</color>
@@ -14,11 +16,25 @@
     <color name="dot">@color/medium_green_400</color>
     <color name="pin">@color/app_red</color>
 
+    <!--<color name="yatra_teal_500">#2fc3c1</color>-->
+    <color name="farmr_teal_500">#2fc3c1</color>
+    <!--<color name="farmr_teal_500">@color/yatra_teal</color>-->
+
+    <color name="yatra_red">#ff3658</color>
+    <color name="yatra_teal">#2ba39f</color>
+    <color name="yatra_black">#333333</color>
+    <color name="yatra_yellow">#f2c50c</color>
+    <color name="yatra_blue">#427ed3</color>
+    <color name="yatra_indio">#8E135F</color>
+    <color name="yatra_green">@color/yatra_black</color>
+
     <color name="stark_white">#D3C6B1</color>
     <color name="stark_white_300">#EAE2D8</color>
 
     <color name="app_light">#ffffff</color>
-    <color name="app_dark_100">#2d384a</color>
+    <!--<color name="app_dark_100">@color/yatra_black</color>-->
+    <color name="app_dark_100">#000000</color>
+    <!--<color name="app_dark_100">#2d384a</color>-->
     <color name="app_dark_300">#2d384a</color>
     <color name="app_dark_200">#212a38</color>
     <color name="app_grey_400">#90a4ae</color>
@@ -27,7 +43,8 @@
     <color name="app_blue">#03a9f4</color>
     <color name="app_yellow">#f6bf26</color>
     <!--<color name="app_red">#ff8a65</color>-->
-    <color name="app_red">@color/red_500</color>
+    <!--<color name="app_red">@color/red_500</color>-->
+    <color name="app_red">@color/yatra_red</color>
 
 
     <color name="scoot_blue_100">#7193FF</color>
@@ -81,12 +98,10 @@
     <color name="white">#ffffff</color>
     <color name="toolbar_color">@color/grey_200</color>
 
-    <color name="yatra_blue">#1181f1</color>
+    <!--<color name="yatra_blue">#1181f1</color>-->
     <color name="yatra_orange">#F78535</color>
     <color name="icon_overlay">#7B8994</color>
     <color name="icon_overlay_light">#887B8994</color>
-    <!--<color name="yatra_teal_500">#2fc3c1</color>-->
-    <color name="farmr_teal_500">#2fc3c1</color>
     <color name="yatra_teal_500">@color/green</color>
 
     <!--Texts-->

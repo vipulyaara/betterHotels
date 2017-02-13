@@ -22,7 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.vipul.bit_hotels.R;
-import com.vipul.bit_hotels.Utils;
+import com.vipul.bit_hotels.utils.Utils;
 import com.vipul.bit_hotels.adapter.FeaturedEventsAdapter;
 import com.vipul.bit_hotels.model.LocationItem;
 
@@ -44,7 +44,7 @@ public class HotelSrpActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trip_srp);
+        setContentView(R.layout.activity_hotel_srp);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             setupEnterAnimation();
@@ -71,7 +71,6 @@ public class HotelSrpActivity extends BaseActivity {
             }
         }, 500);
     }
-
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void setupEnterAnimation() {
@@ -104,7 +103,6 @@ public class HotelSrpActivity extends BaseActivity {
             }
         });
     }
-
 
     private void initUi() {
         initializeToolbar();

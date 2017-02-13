@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ft_avd_toarrow"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+        <path
+            android:name="path_0"
+            android:fillAlpha="1"
+            android:fillColor="@color/app_red"
+            android:pathData="M20,20 l60,0 l0,15 l-60,0 l0,-15" />
+        <path
+            android:name="path_1"
+            android:fillAlpha="1"
+            android:fillColor="@color/app_red"
+            android:pathData="M20,45 l60,0 l0,15 l-60,0 l0,-15" />
+        <path
+            android:name="path_2"
+            android:fillAlpha="1"
+            android:fillColor="@color/app_red"
+            android:pathData="M20,70 l60,0 l0,15 l-60,0 l0,-15" />
+        <path
+            android:name="path_3"
+            android:fillAlpha="1"
+            android:fillColor="@color/app_red"
+            android:pathData="M20,70 l60,0 l0,15 l-60,0 l0,-15" />
+</vector>

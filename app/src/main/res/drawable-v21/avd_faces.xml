@@ -145,30 +145,4 @@
             </set>
         </aapt:attr>
     </target>
-    <!--<target android:name="face">-->
-    <!--<aapt:attr name="android:animation">-->
-    <!--<set>-->
-    <!--<objectAnimator-->
-    <!--android:duration="1000"-->
-    <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
-    <!--android:propertyName="translateX"-->
-    <!--android:repeatCount="1"-->
-    <!--android:valueFrom="1"-->
-    <!--android:valueTo="0.3" />-->
-    <!--</set>-->
-    <!--</aapt:attr>-->
-    <!--</target>-->
-    <!--<target android:name="face">-->
-    <!--<aapt:attr name="android:animation">-->
-    <!--<set>-->
-    <!--<objectAnimator-->
-    <!--android:duration="1000"-->
-    <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
-    <!--android:propertyName="translateX"-->
-    <!--android:repeatCount="1"-->
-    <!--android:valueFrom="1"-->
-    <!--android:valueTo="0.3" />-->
-    <!--</set>-->
-    <!--</aapt:attr>-->
-    <!--</target>-->
 </animated-vector>

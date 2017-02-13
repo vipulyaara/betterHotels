@@ -1,16 +1,11 @@
 package com.vipul.bit_hotels.activity;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.transition.Transition;
-import android.transition.TransitionInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 
@@ -31,10 +26,8 @@ public class HotelDetailActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trip_detail);
+        setContentView(R.layout.activity_hotel_detail);
         galleryLayout = (RelativeLayout) findViewById(R.id.gallery_layout);
-
-
 
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.gallery_layout, GalleryFragment.newInstance())
