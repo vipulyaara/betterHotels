@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="286dp">
+
+    <ImageView
+        android:id="@+id/iv_hero_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_city_42"
+        android:transitionName="shared_image" />
+
+    <RelativeLayout
+        android:layout_width="256dp"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view_colored_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transitionName="shared_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_date_of_publication"
+                fontPath="fonts/open_sans.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_regular"
+                android:gravity="left"
+                android:text="24 Feb, 2017"
+                android:textAllCaps="false"
+                android:textColor="#88ffffff"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_post_title"
+                fontPath="fonts/open_sans_medium.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@string/font_family_medium"
+                android:gravity="left"
+                android:text="10 Reasons to book your tickets to Kashmir"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                fontPath="fonts/open_sans.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@string/font_family_regular"
+                android:gravity="left"
+                android:text="2 mins read"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+
+            <TextView
+                fontPath="fonts/open_sans.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/shape_btn_hollow"
+                android:fontFamily="@string/font_family_medium"
+                android:gravity="left"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="View Full Story"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/author_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="24dp"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_person_2"
+                app:border_color="@color/white"
+                app:border_width="1dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    fontPath="fonts/open_sans.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_family_regular"
+                    android:text="Doe Johnson"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    fontPath="fonts/open_sans.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_family_regular"
+                    android:text="Travel Expert"
+                    android:textAllCaps="false"
+                    android:textColor="#bbffffff"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        fontPath="fonts/open_sans.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:background="#22000000"
+        android:fontFamily="@string/font_family_medium"
+        android:gravity="left"
+        android:paddingBottom="6dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="6dp"
+        android:text="Destinations"
+        android:textAllCaps="false"
+        android:textColor="#88ffffff"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <TextView
+        fontPath="fonts/open_sans.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:background="@drawable/shape_btn_white"
+        android:fontFamily="@string/font_family_regular"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:text="Read more"
+        android:textAllCaps="false"
+        android:textColor="@color/app_dark_100"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+</RelativeLayout>

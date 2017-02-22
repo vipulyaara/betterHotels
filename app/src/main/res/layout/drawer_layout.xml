@@ -79,6 +79,21 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/btn_help_rate_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_profile_name"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:fontFamily="@string/font_family_light"
+                android:padding="16dp"
+                android:text="Blog Publications"
+                android:textColor="@color/app_dark_100"
+                android:textSize="16sp" />
+
+            <TextView
                 android:id="@+id/tv_album"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,21 +139,6 @@
                 android:fontFamily="@string/font_family_light"
                 android:padding="16dp"
                 android:text="Feedback"
-                android:textColor="@color/app_dark_100"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/btn_help_rate_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tv_profile_name"
-                android:layout_marginLeft="0dp"
-                android:layout_marginRight="0dp"
-                android:background="?selectableItemBackground"
-                android:clickable="true"
-                android:fontFamily="@string/font_family_light"
-                android:padding="16dp"
-                android:text="Rate the App"
                 android:textColor="@color/app_dark_100"
                 android:textSize="16sp" />
 

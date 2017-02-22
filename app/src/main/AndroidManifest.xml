@@ -49,6 +49,12 @@
             android:name="com.vipul.bit_hotels.activity.BlogDetailActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
+            android:name="com.vipul.bit_hotels.activity.PublicationActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vipul.bit_hotels.activity.PublicationActivityOld"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
             android:name="com.vipul.bit_hotels.activity.SearchCityActivity"
             android:windowSoftInputMode="stateAlwaysHidden"
             android:theme="@style/AppTheme.NoActionBar"/>

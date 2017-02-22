@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/inner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="24dp">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/image_layout"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="24dp"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_city_4" />
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_toRightOf="@+id/image_layout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_business_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        fontPath="fonts/open_sans_medium.ttf"
+                        android:fontFamily="@string/font_family_medium"
+                        android:text="Hotel Palm Tree Premier"
+                        android:textColor="@color/app_dark_200"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        fontPath="fonts/open_sans.ttf"
+                        android:fontFamily="@string/font_family_regular"
+                        android:text="Sector 39, Near Huda City Center"
+                        android:textColor="@color/medium_green_700"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        fontPath="fonts/open_sans.ttf"
+                        android:fontFamily="@string/font_family_regular"
+                        android:text="Mughlai, Fast Food"
+                        android:textColor="@color/medium_green_600"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/text_layout"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_toRightOf="@+id/image_layout">-->
+
+                <!--<include layout="@layout/item_action_business" />-->
+                <!--</RelativeLayout>-->
+
+                <ImageView
+                    android:id="@+id/iv_action"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:padding="6dp"
+                    android:tint="@color/app_dark_100"
+                    app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginLeft="32dp"
+        android:background="@color/grey_300" />
+</LinearLayout>

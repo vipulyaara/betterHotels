@@ -25,6 +25,8 @@ import com.vipul.bit_hotels.activity.BlurredLayoutActivity;
 import com.vipul.bit_hotels.activity.HotelVocabActivity;
 import com.vipul.bit_hotels.activity.NoTripActivity;
 import com.vipul.bit_hotels.activity.ProfileActivity;
+import com.vipul.bit_hotels.activity.PublicationActivity;
+import com.vipul.bit_hotels.activity.PublicationActivityOld;
 import com.vipul.bit_hotels.activity.SearchActivity;
 import com.vipul.bit_hotels.activity.TripsListActivity;
 import com.vipul.bit_hotels.utils.Utils;
@@ -90,7 +92,7 @@ public class NavigationDrawerFragment extends BaseNavigationDrawerFragment {
         rateLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Utils.startActivityWithClipReveal(getActivity(), BlurredLayoutActivity.class, rateLayout);
+                Utils.startActivityWithClipReveal(getActivity(), PublicationActivityOld.class, rateLayout);
             }
         });
         return navigationDrawerLayout;
