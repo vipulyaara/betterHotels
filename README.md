@@ -8,6 +8,7 @@ A concept app for Android demonstrating interface and interaction design element
 
 ![img_hotel_18](https://cloud.githubusercontent.com/assets/6247940/21677162/dead87f4-d35e-11e6-891f-76d9ef1e24a9.png)
 ![img_hotel_17](https://cloud.githubusercontent.com/assets/6247940/21677157/d8688fa6-d35e-11e6-82a9-987b08f58b58.png)
+![ezgif com-resize-4](https://cloud.githubusercontent.com/assets/6247940/23210258/cb981870-f922-11e6-91a9-29181b66f7ac.gif)
 
 Watch these videos to get a look at the app's workflow
 
