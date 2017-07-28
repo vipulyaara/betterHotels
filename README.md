@@ -19,6 +19,9 @@ Watch these videos to get a look at the app's workflow
 [No trips loading animtion - Done with Android Vector Drawables](https://www.youtube.com/watch?v=JER7z1oDdHs)
 
 
+P.S. The code is very ugly as this is an experimental project and has taken a lot of turns. I will try to clean it whenever possible.
+
+
 
 
 
